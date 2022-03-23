@@ -17,4 +17,6 @@ public class SiteContentService {
     public Flux<SiteContent> getAllSiteContent() {
         return siteContentRepository.findAll();
     }
+
+
 }
